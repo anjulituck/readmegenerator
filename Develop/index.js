@@ -18,7 +18,6 @@ const questions = [
         type: 'input',
         name:'description',
         message: 'What is this project about?'
-
     },
     {
         type: 'input',
@@ -26,12 +25,51 @@ const questions = [
         message: 'What instructions are needed to install the project?'
     },
     {
+        type: 'input',
+        name:'usage',
+        message: 'What can this project be used towards?'
+    },
+    {
+        type: 'input',
+        name:'credits',
+        message: 'Who helped you with this project? Anything else you would like to give credit for helping this project?'
+    }, 
+    {
         type: 'list',
         name:'license',
         message: 'What license do you need?',
         choices: ["MIT", "APACHE 2.0", "GPL", "NONE"]
+    },
+    {
+        type: 'input',
+        name:'features',
+        message: 'What features and issues were worked on during this project?'
+    }, 
+    {
+        type: 'input',
+        name:'email',
+        message: 'What is your email?'
+    }, 
+    {
+        type: 'input',
+        name:'github',
+        message: 'What is your GitHub username and profile link?'
+    }, 
+    {
+        type: 'input',
+        name:'questions',
+        message: 'What instructions are needed to contact you with additional questions?'
+    }, 
+    {
+        type: 'input',
+        name:'contributing',
+        message: 'How can other users contribute to this project?'
+    }, 
+    {
+        type: 'input',
+        name:'tests',
+        message: 'Describe what tests were taken for this project.'
     }
-
 
 ];
 

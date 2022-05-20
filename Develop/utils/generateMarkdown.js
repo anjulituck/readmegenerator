@@ -24,7 +24,6 @@ function generateMarkdown(data) {
  - [Usage](#usage)
  - [Credits](#credits)
  - [License](#license)
- - [Contributors](#contributors)
  - [Features](#features)
  - [Questions](#questions)
  - [Contributing](#contributing)
@@ -32,31 +31,39 @@ function generateMarkdown(data) {
  
  
  ## Installation
+
  ${data.installation}
  
  ## Usage
 
- 
+ ${data.usage}
+
  ## Credits
 
- 
+ ${data.credits}
+
  ## License
  
- 
- ## Contributors
- 
+ ${data.license}
  
  ## Features
  
+ ${data.features}
 
  ## Questions
 
+ ${data.questions}
+
+ Email: ${data.email}
+ GitHub Username & Link:  ${data.github}
 
  ## Contributing
 
+ ${data.contributing}
 
  ## Tests
   
+ ${data.tests}
   
   `;
 }
