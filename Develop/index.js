@@ -41,7 +41,7 @@ const questions = [
 const writeToFile = (fileName, data) => {
  return fs.writeFile(fileName,data, function(err) {
  if (err) return console.log(err);
- console.log('Hello World > helloworld.txt');
+ console.log('Hello World');
  })
 };
 
