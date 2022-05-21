@@ -17,22 +17,22 @@ const questions = [
     {
         type: 'input',
         name:'description',
-        message: 'What is this project about?'
+        message: 'What is this project about? Why did you build this and what did you learn?'
     },
     {
         type: 'input',
         name:'installation',
-        message: 'What instructions are needed to install the project?'
+        message: 'What instructions are required to install the project?'
     },
     {
         type: 'input',
         name:'usage',
-        message: 'What can this project be used towards?'
+        message: 'What can this project be used towards? Include screenshots.'
     },
     {
         type: 'input',
         name:'credits',
-        message: 'Who helped you with this project? Anything else you would like to give credit for helping this project?'
+        message: 'Who helped you with this project? Any 3rd parties or tutorials you would like to give credit for helping this project?'
     }, 
     {
         type: 'list',
