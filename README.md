@@ -4,6 +4,8 @@
 
 Using Node.js and inquirer package, we are building a README.md file generator based on user input. I used the following guide to help generator the accurate information: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
+Shoutout to this resource for the help on license badges: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+
  
 ## Table of Contents 
  
@@ -12,13 +14,17 @@ Using Node.js and inquirer package, we are building a README.md file generator b
  - [Credits](#credits)
  - [License](#license)
  - [Walkthrough Video](#license)
- - [Tests](#tests)
  - [Deployed Links](#deployedlinks)
  
 ## Installation
 
+In order to install the project, please install Node and start with npm i on the command line. To start the application, please type node index.js in the command line in the root directory.
 
- 
+Tech Used:
+
+Node.js
+Inquirer Package
+
 ## Usage
 
 User Story 
@@ -47,7 +53,6 @@ THEN I am taken to the corresponding section of the README
 
 ## Walkthrough Video
 
-## Tests
 
 ## Deployed Links 
 
