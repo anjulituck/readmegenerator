@@ -1,13 +1,13 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
-  let license = ''{
+  let licenseOption = ''{
     if(license === 'MIT') {
-      licenseType =
+      licenseOption = [![License:
     } else if (license === 'APACHE 2.0'){
-      licenseType =
+      licenseOption = [![License]
     }else (license === 'NONE'){
-      return license
+      return licenseOption;
     }
   }
 // TODO: Create a function that returns the license link
