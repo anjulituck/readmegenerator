@@ -2,7 +2,7 @@
 
 ## Description
 
-Using Node.js and inquirer package, we are building a README.md file generator based on user input. I used the following guide to help generator the accurate information: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+Using Node.js and inquirer package, we are building a README.md file generator based on user input. I used the following guide to help build the  generator the accurate information: [Professional README] (https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide). I couldn't get the license badge function to work at the moment, but a work in progress for sure.
 
 Shoutout to this resource for the help on license badges: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
@@ -56,5 +56,5 @@ THEN I am taken to the corresponding section of the README
 
 ## Deployed Links 
 
- GitHub Repo:
- Deployed Page:
+ GitHub Repo: https://github.com/anjulituck/readmegenerator.git
+ Deployed Page:https://anjulituck.github.io/readmegenerator/
