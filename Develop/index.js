@@ -27,7 +27,7 @@ const questions = [
     {
         type: 'input',
         name:'usage',
-        message: 'What can this project be used towards? Include screenshots.'
+        message: 'What can this project be used towards?'
     },
     {
         type: 'input',
@@ -53,7 +53,7 @@ const questions = [
     {
         type: 'input',
         name:'github',
-        message: 'What is your GitHub username and profile link?'
+        message: 'What is your GitHub username? No need for the @ sign.'
     }, 
     {
         type: 'input',
@@ -79,7 +79,7 @@ const questions = [
 const writeToFile = (fileName, data) => {
  return fs.writeFile(fileName,data, function(err) {
  if (err) return console.log(err);
- console.log('Hello World');
+ //console.log('Hello World');
  })
 };
 
@@ -88,7 +88,7 @@ function init() {
     inquirer.prompt(questions)
     // PROMISE
     .then((responses) => {
-        console.log('gonna make README')
+        //console.log('gonna make README')
         //using spread operator
         writeToFile('README.md', generateMarkdown({...responses}))
     }) 
